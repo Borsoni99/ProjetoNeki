@@ -146,3 +146,38 @@ if __name__ == "__main__":
 1. digite uma pergunta relacionada ao conteúdo dos pdfs fornecidos.
 2. o programa processará a pergunta e exibirá a resposta.
 3. para encerrar o programa, digite `'sair'`.
+
+## Exemplos de interações com o sistema e resultados obtidos.
+
+#### Pergunta:
+Qual é o tema principal do documento que fala sobre feedback de produto.
+
+#### Resposta: 
+O tema principal do documento que fala sobre feedback de produto é a funcionalidade de Captura de Feedbacks sobre o Produto na plataforma IQuirium. Essa funcionalidade permite que os usuários forneçam feedback diretamente na plataforma sobre sua experiência de uso, funcionalidades, desempenho e sugestões de melhoria. O documento aborda como os feedbacks serão armazenados, analisados pela equipe da plataforma, e como serão utilizados para identificar áreas de melhoria e novas funcionalidades a serem desenvolvidas.
+
+![image](https://github.com/user-attachments/assets/47f103e5-e9f0-42dd-82e9-919834e4f331)
+
+#### Pergunta:
+A jornada do usuário no PDF de feedback de produtos é dividida em duas partes:
+
+#### Resposta: 
+A jornada do usuário no PDF de feedback de produtos é dividida em duas partes:
+
+1. Envio de Feedback Espontâneo:
+- O usuário acessa a seção Feedback no menu da plataforma.
+- A plataforma exibe um formulário simples para o usuário relatar sua experiência, incluindo campos opcionais para:
+  - Comentários gerais.
+  - Sugestões de melhoria.
+  - Relato de problemas técnicos ou erros.
+- O usuário preenche os campos desejados e envia o feedback.
+- A plataforma confirma o recebimento do feedback e exibe uma mensagem de agradecimento.
+
+2. Solicitar Feedback de Outro Usuário:
+- O usuário acessa a seção Feedback entre Usuários e escolhe a opção "Solicitar Feedback".
+- O usuário seleciona o destinatário (um colega ou mentor da plataforma) e define o tipo de feedback que deseja receber (ex.: feedback sobre competências, comportamentos, ou uma atividade específica).
+
+Essas são as etapas que os usuários seguem ao interagir com a funcionalidade de feedback de produtos no PDF.
+
+![image](https://github.com/user-attachments/assets/8632d29c-3d78-4950-b223-9556a845f8e9)
+
+
