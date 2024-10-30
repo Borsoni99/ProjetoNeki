@@ -16,12 +16,12 @@ def splitar_documentos(docs):
     splitted = splitter.split_documents(docs)
     return splitted
 
-def criar_indice(texts):
+def criar_indice(textos):
     # Cria embeddings usando o modelo 'text-embedding-ada-002'
     embd = OpenAIEmbeddings()
     embd.model = "text-embedding-ada-002"
     # Cria um índice FAISS
-    idx = FAISS.from_documents(texts, embd)
+    idx = FAISS.from_documents(textos, embd)
     return idx
 
 def criar_chain(indice):
