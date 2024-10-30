@@ -114,9 +114,9 @@ if __name__ == "__main__":
 ```
 
 
-## passo a passo para utilização
+## Passo a passo para utilização
 
-### preparação do ambiente:
+### Preparação do ambiente:
 
 1. certifique-se de ter o python instalado em sua máquina.
 2. instale as bibliotecas necessárias:
