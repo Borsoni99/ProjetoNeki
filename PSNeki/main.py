@@ -7,7 +7,7 @@ from langchain.chains import RetrievalQA
 from langchain_openai.chat_models import ChatOpenAI
 
 # Define a chave de API da OpenAI
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'API_KEY'
 
 def splitar_documentos(docs):
     # Inicializa o divisor de texto
