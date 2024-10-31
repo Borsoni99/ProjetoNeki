@@ -24,16 +24,15 @@ def criar_chain(indice):
     chatbot = ChatOpenAI()
     chatbot.model_name = "gpt-3.5-turbo" 
     chatbot.temperature = 0  
-    # Cria uma cadeia de QA
+    # Cria uma cadeia de QA(perguntas e respostas)
     chain = RetrievalQA.from_chain_type(llm=chatbot, chain_type="stuff", retriever=indice.as_retriever())
     return chain
 
 if __name__ == "__main__":
     diretorio_pdfs = './arquivos'
-
-    # Lista todos os arquivos no local especificado
     arquivos = os.listdir(diretorio_pdfs)
     docs = []
+    
     for arquivo in arquivos:
         caminho = diretorio_pdfs + '/' + arquivo
         loader = PyPDFLoader(caminho)
